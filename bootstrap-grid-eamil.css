@@ -48,6 +48,10 @@ body {
     background-color: #f5f5f5
 }
 
+#offcanvas-preview.show {
+    height: calc(100vh - 5rem);
+}
+
 .email-message {
     min-width: 0;
     background-color: #f2f2f2;
@@ -69,6 +73,7 @@ body {
     text-overflow: ellipsis;
     margin: 0;
     line-height: 1.5;
+    pointer-events: none;
 }
 
 .preview .subject {
